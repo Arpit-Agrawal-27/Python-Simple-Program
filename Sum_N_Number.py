@@ -16,3 +16,14 @@ else:
         print("-"*50)
         print("\t\tsum={}".format(s))
         print("-"*50)
+print("*"*50)
+print("With the Help of for loop")
+print("-"*50)
+s=0
+for i in range(1,n+1):
+    s=s+i
+    print("\t\t{}".format(i))
+else:
+    print("-"*50)
+    print("\tsum={}".format(s))
+    print("-"*50)
