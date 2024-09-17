@@ -12,4 +12,15 @@ else:
         i=i+1
         print("-"*50)
     else:
+        print("*"*50)
+#Program for to Generate the table with the help of for loop
+n=int(input("Enter the number:"))
+if n<=0:
+    print("{} is Invalid Input".format(n))
+else:
+    print("-"*50)
+    print("Multiplication Table for {}".format(n))
+    print("-"*50)
+    for i in range(1,11):
+        print("\t\t{} x {}={}".format(n,i,n*i))
         print("-"*50)
