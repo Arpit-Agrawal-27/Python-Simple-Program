@@ -11,8 +11,18 @@ else:
             res="Not Prime Number"
             break
         i+=1
-    print()
-    print("-"*50)
+    print("-" * 50)
+    print("With the Help of While Loop")
+    print("-" * 50)
+    print("{} is {}".format(n,res))
+
+#<---------------for loop------------------------>
+    print("*" * 50)
+    print("With the Help of For Loop")
+    print("-" * 50)
+    for i in range(2,n,2):
+        if n%i==0:
+            res="Not Prime Number"
+        break
     print("{} is {}".format(n,res))
     print("-"*50)
-
