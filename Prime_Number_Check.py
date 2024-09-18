@@ -11,8 +11,8 @@ else:
             res="Not Prime Number"
             break
         i+=1
-print()
-print("-"*50)
-print("{} is {}".format(n,res))
-print("-"*50)
+    print()
+    print("-"*50)
+    print("{} is {}".format(n,res))
+    print("-"*50)
 
