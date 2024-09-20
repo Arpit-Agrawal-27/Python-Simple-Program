@@ -4,7 +4,6 @@ res = "Prime Number"
 if n<=1:
     print("{} is Invalid Input".format(n))
 else:
-
     i=2
     while i<n:
         if n%i==0:
@@ -15,14 +14,13 @@ else:
     print("With the Help of While Loop")
     print("-" * 50)
     print("{} is {}".format(n,res))
-
 #<---------------for loop------------------------>
     print("*" * 50)
     print("With the Help of For Loop")
     print("-" * 50)
-    for i in range(2,n,2):
+    for i in range(2,n):
         if n%i==0:
             res="Not Prime Number"
-        break
+            break
     print("{} is {}".format(n,res))
     print("-"*50)
