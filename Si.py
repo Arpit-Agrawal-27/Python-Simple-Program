@@ -1,5 +1,5 @@
 #Program for to create the function for calculating the simple interest and total amount
-def simple_interest():
+def simpleInterest():
     p=int(input("Enter the principal Amount:"))
     t=int(input("Enter the Time:"))
     r=int(input("Enter the Rate of Intrest"))
@@ -10,7 +10,7 @@ def simple_interest():
         totalamu=si+p
         return p,t,r,si,totalamu
 #function call
-res=simple_interest()
+res=simpleInterest()
 if type(res)==str:
     print(res)
 else:
